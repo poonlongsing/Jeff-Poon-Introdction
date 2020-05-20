@@ -1,29 +1,196 @@
 <!DOCTYPE html>
-<body class = "body">
-  <head>
-    <title>Jeff Poon</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-  </head>
-  <div class="wrapper">
+<html lang="en">
+<head>
+	<title>Jeff Poon Website</title>
+	 <!-- add bootstrap css file -->
 
-    <div class="left">
-      <img class="profile-picture" src="img/profile.jpg" width="200" />
-      <br/>
-      <h1 class="name">Jeff Poon</h1>
-      <h4 class="subtitle">Developer</h4>
-    </div>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
 
-    <div class="right">
-      <p class="bio">
-        Computer Science student, web developer, blah blah blah.
-        Thanks for visiting my website.
-      </p>
-      <ul class="social-links">
-        <li><a href="https://github.com/ianjsikes">Github</a></li>
-        <li><a href="https://medium.com/@ianjsikes">Medium</a></li>
-      </ul>
-    </div>
+</head>
+<body>
+  <!-- navbar -->
 
+  <nav class="navbar navbar-expand-lg fixed-top ">
+	  <a class="navbar-brand" href="#">Home</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+	  </button>
+
+	  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-4">
+
+	      <li class="nav-item">
+	        <a class="nav-link" data-value="about" href="#">About</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="work" href="#">Work Experience</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="education" href="#">Education</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="profile" href="#">Profile</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="contact" href="#">Contact</a>
+	      </li>
+	    </ul>
+
+	  </div>
+</nav>
+<!-- header -->
+<header class="header ">
+  <div class="overlay"></div>
+   <div class="container">
+   	  <div class="description ">
+  	<h1>
+  		Hello ,Welcome To My Personal Website
+  		<p>
+  		Dependable and goal-oriented IT Specialist developing IT platform and
+			Robotic Process Automation with providing comprehensive customer support.
+			Seeking to further IT career by growing with the team as IT technician.</p>
+  	</h1>
   </div>
+   </div>
+
+</header>
+
+<!-- about section -->
+<div class="about" id="about">
+	<div class="container">
+	  <h1 class="text-center">About Me</h1>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/IMG_7914(2).jpg" class="img-fluid">
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-12 desc">
+
+				<h3>Jeff Poon Long Sing</h3>
+				<p>
+					Email: 		longsing_poon@yahoo.com.hk      <br/>
+					Mobile:		+852 6353 9188<br/>
+					LinkedIn:
+				</p>
+				<a href="https://www.linkedin.com/in/jeff-poon-208205b0/">	https://www.linkedin.com/in/jeff-poon-208205b0/<a/>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- portfolio -->
+<div class="blog" id="work">
+     <h1 class="text-center">Work Experience</h1>
+	<div class="container">
+		<div class="row">
+			<div style="width: 50%">
+				<img src="images/logo.gif">
+				<br/>
+				<h4 class="card-title">2019 Contact – The Bank of East Asia <br/> Business Service Officer</h4>
+			</div>
+			<div>
+				<p >-	Project management and documentation<br/>
+						-	Robotic Process Automation (RPA) development<br/>
+						-	Daily support for RPA
+				</p>
+			</div>
+		</div>
+		<br/>
+		<br/>
+		<div class="row">
+			<div style="width: 50%">
+				<h4 class="card-title">2018 Internship – Future Solutions Laboratory Limited <br/> Software Developer</h4>
+			</div>
+			<div>
+				<p >-	System development and testing<br/>
+						-	Daily web applications support<br/>
+						-	User requirement gathering and documentation
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Posts section -->
+<div class="blog" id="education">
+	<div class="container">
+	<h1 class="text-center">Education</h1>
+		<div class="row" style="height=50%">
+			<div>
+				<img src="images/posts/ust.jpg" class="img-big">
+			</div>
+			<h4 class="card-title">Bachelor’s Begree in Computer Engineering</h4>
+		</div>
+		<div class="row">
+			<p>
+				2016-2019 The Hong Kong University of Science and Technology
+			</p>
+
+		</div>
+	</div>
+</div>
+
+<!-- Team section -->
+<div class="team" id="profile">
+	<div class="container">
+	   <h1 class="text-center">Profile</h1>
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/hike2.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	Hike
+				 </div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/cycling.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	 Bike
+				 </div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/handball.JPG" class="img-fluid" alt="team">
+				<div class="des">
+				 	Handball
+				 </div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/gym.jpg" class="img-fluid" alt="team">
+				 <div class="des">
+				 	Gym
+				 </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Contact form -->
+<div class="contact-form" id="contact">
+	<div class="container">
+		<form id="visit">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+				  <h1>Get in Touch</h1>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 right">
+				   <div class="form-group">
+				   	 <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="visit_name">
+				   </div>
+				   <div class="form-group">
+				   	 <textarea class="form-control form-control-lg" name="visit_contant" placeholder="Tell me something">
+
+				   	 </textarea>
+				   </div>
+				   <input type="submit" class="btn btn-secondary btn-block" value="Send" name="bt_send" onclick="Send()">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+<!-- add Javasscript file from js file -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src='js/main.js'></script>
+
 </body>
+</html>
